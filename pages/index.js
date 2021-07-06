@@ -55,9 +55,9 @@ export default function Home() {
           </div>
           <div className='pt-6 Content'>
             <p>
-              Welcome to my small corner on the internet where I share my work,
-              notes and experiences on building products, design, software
-              development and product management.
+              Welcome to my corner on the internet where I share my work, notes
+              and experiences on building products, design, software development
+              and product management.
             </p>
 
             <h1 className='my-4 text-2xl font-semibold text-black'>
