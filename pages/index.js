@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Projects from '~/components/ProjectComp'
-import Capabilities from '~/components/Capabilities'
+import Capability from '~/components/Capability'
 
 export default function Home() {
   return (
@@ -34,44 +34,8 @@ export default function Home() {
               </h1>
             </div>
 
-            <Capabilities
-              title='Research & User Experience'
-              // content={` <div className='p-3 rounded-sm shadow-sm bg-gray-50'>
-              //     <ul>
-              //       <li>Design Thinking</li>
-              //       <li>User Research</li>
-              //       <li>UX Audits</li>
-              //       <li>Competitive Analysis</li>
-              //       <li>Brainstorming</li>
-              //       <li>User Journeys</li>
-              //     </ul>
-              //   </div>`}
-            />
-            <Capabilities
-              title='Prototyping'
-              // content={` <div className='p-3 rounded-sm shadow-sm bg-gray-50'>
-              //         <ul>
-              //           <li>Information Architecture</li>
-              //           <li>Sketching</li>
-              //           <li>Wireframing</li>
+            <Capability />
 
-              //           <li>Usability Testing</li>
-
-              //         </ul>
-              //       </div>`}
-            />
-            <Capabilities
-              title='Front End Development'
-              // content={` <div className='p-3 rounded-sm shadow-sm bg-gray-50'>
-              //         <ul>
-              //           <li>TailwindCSS</li>
-              //           <li>Javascript</li>
-              //           <li>React/NextJs</li>
-              //           <li>GraphQL</li>
-              //           <li>Git</li>
-              //         </ul>
-              //       </div>`}
-            />
             {/* Project Component */}
 
             <Projects />

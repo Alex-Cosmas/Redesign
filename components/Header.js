@@ -30,7 +30,7 @@ export default function Header() {
               target='_blank'
               rel='noopener noreferrer nofollow'
             >
-              <div className='flex items-center font-semibold text-black no-underline gap-x-1 hover:text-black'>
+              <div className='flex items-center text-black no-underline gap-x-1 hover:text-black'>
                 <AiFillLinkedin className='w-4 h-4' />
                 LinkedIn
               </div>
@@ -41,7 +41,7 @@ export default function Header() {
               target='_blank'
               rel='noopener noreferrer nofollow'
             >
-              <div className='flex items-center font-semibold text-black no-underline gap-x-1 hover:text-black'>
+              <div className='flex items-center text-black no-underline gap-x-1 hover:text-black'>
                 <AiOutlineMail className='w-4 h-4' />
                 Mail
               </div>
