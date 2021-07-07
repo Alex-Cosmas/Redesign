@@ -1,7 +1,7 @@
 import Head from 'next/head'
 
 import Accordion from '/components/Accordion/Accordion'
-import Projects from '../components/ProjectComponent'
+import Projects from '/components/ProjectComponent'
 
 export default function Home() {
   return (
