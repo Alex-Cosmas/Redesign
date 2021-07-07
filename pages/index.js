@@ -1,7 +1,6 @@
 import Head from 'next/head'
-
-import Accordion from '../components/accordion/accordion'
-import Projects from '../components/components/ProjectComp'
+import Projects from '~/components/ProjectComp'
+import Capabilities from '~/components/Capabilities'
 
 export default function Home() {
   return (
@@ -35,7 +34,7 @@ export default function Home() {
               </h1>
             </div>
 
-            <Accordion
+            <Capabilities
               title='Research & User Experience'
               content={` <div className='p-3 rounded-sm shadow-sm bg-gray-50'>
                   <ul>
@@ -48,7 +47,7 @@ export default function Home() {
                   </ul>
                 </div>`}
             />
-            <Accordion
+            <Capabilities
               title='Prototyping'
               content={` <div className='p-3 rounded-sm shadow-sm bg-gray-50'>
                       <ul>
@@ -61,7 +60,7 @@ export default function Home() {
                       </ul>
                     </div>`}
             />
-            <Accordion
+            <Capabilities
               title='Front End Development'
               content={` <div className='p-3 rounded-sm shadow-sm bg-gray-50'>
                       <ul>

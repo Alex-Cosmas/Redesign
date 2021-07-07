@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react'
 import { CgChevronDown } from 'react-icons/cg'
 
-function Accordion(props) {
+function Capabilities(props) {
   const [setActive, setActiveState] = useState('')
   const [setHeight, setHeightState] = useState('0px')
   // const [setRotate, setRotateState] = useState('accordion__icon')
@@ -18,15 +18,16 @@ function Accordion(props) {
     // )
   }
   return (
-    <div className='accordion__section'>
+    <div className='accordion__section w-ful'>
       <button
-        className={`py-3 px-4 text-left text-lg font-semibold text-black no-underline flex justify-between ${setActive}`}
+        className={` font-semibold text-left text-black no-underline flex justify-between px-4 py-3 hover:bg-gray-100 hover:transition hover:delay-300 ${setActive}`}
         onClick={toggleAccordion}
       >
         <p className='accordion__title'>{props.title}</p>
         {/* Cheveon goes here */}
         <CgChevronDown />
       </button>
+
       <div
         ref={content}
         style={{ maxHeight: `${setHeight}` }}
@@ -41,4 +42,4 @@ function Accordion(props) {
   )
 }
 
-export default Accordion
+export default Capabilities
