@@ -1,4 +1,5 @@
 import React, { useState, useRef } from 'react'
+import { CgChevronDown } from 'react-icons/cg'
 
 function Accordion(props) {
   const [setActive, setActiveState] = useState('')
@@ -19,11 +20,12 @@ function Accordion(props) {
   return (
     <div className='accordion__section'>
       <button
-        className={`py-3 px-4 text-left text-lg font-semibold text-black no-underline + ${setActive}`}
+        className={`py-3 px-4 text-left text-lg font-semibold text-black no-underline flex justify-between ${setActive}`}
         onClick={toggleAccordion}
       >
         <p className='accordion__title'>{props.title}</p>
         {/* Cheveon goes here */}
+        <CgChevronDown />
       </button>
       <div
         ref={content}
