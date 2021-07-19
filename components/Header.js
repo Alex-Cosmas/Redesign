@@ -13,14 +13,14 @@ export default function Header() {
         </a>
         <div className='justify-between hidden mt-3 tracking-wide uppercase md:flex lg:mt-4'>
           <div className='flex items-center space-x-5 text-xs'>
-            <Link href='/projects'>
+            {/* <Link href='/projects'>
               <a className='projects'>Projects</a>
             </Link>
             <Link href='/articles'>
               <a className='articles'>Articles</a>
             </Link>
 
-            {/* <Link href='/library'>
+            <Link href='/library'>
               <a className='library'>Library</a>
             </Link> */}
           </div>

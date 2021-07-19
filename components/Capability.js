@@ -75,6 +75,7 @@ export default function Capability() {
                     <li>React/NextJs</li>
                     <li>GraphQL</li>
                     <li>Git</li>
+                     <li>NodeJs</li>
                   </ul>
                 </div>
               </Disclosure.Panel>
