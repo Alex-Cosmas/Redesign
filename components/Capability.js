@@ -9,7 +9,7 @@ export default function Capability() {
           {({ open }) => (
             <>
               <Disclosure.Button className='flex items-center justify-between w-full px-4 py-2 text-lg font-semibold text-left text-black rounded-sm bg-gray-50 hover:bg-gray-200 focus:outline-none focus-visible:ring focus-visible:ring-gray-200 focus-visible:ring-opacity-75'>
-                <span>Research</span>
+                <span>UX Design / Research</span>
 
                 <HiChevronDown
                   className={`${
@@ -75,8 +75,28 @@ export default function Capability() {
                     <li>React/NextJs</li>
                     <li>GraphQL</li>
                     <li>Git</li>
-                     <li>NodeJs</li>
+                    <li>NodeJs</li>
                   </ul>
+                </div>
+              </Disclosure.Panel>
+            </>
+          )}
+        </Disclosure>
+
+        <Disclosure as='div' className='mt-2'>
+          {({ open }) => (
+            <>
+              <Disclosure.Button className='flex items-center justify-between w-full px-4 py-2 text-lg font-semibold text-left text-black rounded-sm bg-gray-50 hover:bg-gray-200 focus:outline-none focus-visible:ring focus-visible:ring-gray-200 focus-visible:ring-opacity-75'>
+                <span>Project Management</span>
+                <HiChevronDown
+                  className={`${
+                    open ? 'transform rotate-180' : ''
+                  } w-5 h-5 text-gray-500`}
+                />
+              </Disclosure.Button>
+              <Disclosure.Panel className='px-4 pt-4 pb-2 '>
+                <div>
+                  <ul>{/* <li>TailwindCSS</li> */}</ul>
                 </div>
               </Disclosure.Panel>
             </>
