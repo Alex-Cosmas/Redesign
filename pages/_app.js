@@ -26,4 +26,4 @@ const App = ({ Component, pageProps }) => {
   )
 }
 
-export default MyApp
+export default App
