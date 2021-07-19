@@ -23,7 +23,7 @@ export default function Home() {
             </div>
 
             <p className='my-4 '>
-              Welcome to my corner on the internet where I share my work, notes
+              Welcome to my space on the internet where I share my work, notes
               and experiences on building products, design, software development
               and product management.
             </p>
